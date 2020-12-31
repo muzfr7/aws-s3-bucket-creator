@@ -18,6 +18,7 @@ import (
 var env config.EnvConfig
 
 func init() {
+
 	// export environment variables from .env file
 	if _, err := os.Stat("./.env"); err == nil {
 		if err = config.ExportEnvVars("./.env"); err != nil {
