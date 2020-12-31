@@ -1,0 +1,12 @@
+bin/*
+*.exe
+
+.env
+.DS_Store
+
+.idea/
+.vscode/
+
+.tags
+*sublime-project
+*sublime-workspace
